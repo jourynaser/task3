@@ -6,6 +6,8 @@ This project is a smart Voice-to-Voice AI Assistant that allows the user to spea
 
 The project was built using HTML, CSS, JavaScript, PHP, and the Gemini API.
 
+---
+
 ## How It Works
 
 The application works in three main steps:
@@ -28,6 +30,8 @@ The response from Gemini is displayed in the chat interface.
 
 The browser uses the Speech Synthesis API to read the response aloud to the user.
 
+---
+
 ## Features
 
 - Arabic voice recognition
@@ -40,6 +44,8 @@ The browser uses the Speech Synthesis API to read the response aloud to the user
 - Responsive design
 - Secure API key handling through PHP
 
+---
+
 ## Technologies Used
 
 - HTML
@@ -50,6 +56,8 @@ The browser uses the Speech Synthesis API to read the response aloud to the user
 - Web Speech Recognition API
 - Speech Synthesis API
 - XAMPP
+
+---
 
 ## Project Structure
 
@@ -66,3 +74,36 @@ voice-assistant/
 ├── .gitignore
 ├── .htaccess
 └── README.md
+```
+
+---
+
+## How to Run
+
+1. Install XAMPP.
+2. Copy the project folder into the `htdocs` directory.
+3. Start Apache from the XAMPP Control Panel.
+4. Create a `config.php` file by copying `config.example.php`.
+5. Open `config.php` and add your own Gemini API key.
+6. Open your browser and go to:
+
+```
+http://localhost/chat%20bot%20exmample/
+```
+
+7. Allow microphone access.
+8. Click the microphone button and start speaking.
+
+---
+
+## Configuration
+
+Before running the project:
+
+1. Copy `config.example.php` and rename it to `config.php`.
+2. Open `config.php`.
+3. Add your own Gemini API key.
+4. Save the file.
+5. Run the project using XAMPP.
+
+> **Note:** The `config.php` file is not included in this repository because it contains a private Gemini API key. A template file (`config.example.php`) is provided instead.
