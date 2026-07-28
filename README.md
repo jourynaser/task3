@@ -1,4 +1,4 @@
-# task3 - Voice-to-Voice AI Assistant
+# task3 : Voice-to-Voice AI Assistant
 
 ## Description
 
